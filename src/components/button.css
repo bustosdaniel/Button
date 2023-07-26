@@ -1,0 +1,101 @@
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 14px 20px;
+  color: #3F3F3F;
+  background-color:#E0E0E0;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #33333333;
+}
+
+.default{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 14px 20px;
+  color: #3F3F3F;
+  background-color: #E0E0E0;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.default:hover{
+  background-color: #AEAEAE;
+}
+
+.primary {
+  border: none;
+  border-radius: 8px;
+  padding: 14px 20px;
+  background-color: #2962FF;
+  color: #FFF;
+  margin: 24px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.primary:hover {
+  background-color: #0039CB;
+}
+
+.secondary {
+  border: none;
+  border-radius: 8px;
+  padding: 14px 20px;
+  background-color: #455A64;
+  color: #FFF;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.secondary:hover {
+  background-color: #1C313A;
+}
+
+.danger {
+  border: none;
+  border-radius: 8px;
+  padding: 14px 20px;
+  background-color: #D32F2F;
+  color: #FFF;
+  font-size: 1em;
+  font-weight: 500;
+  margin-left: 24px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.danger:hover {
+  background-color: #9A0007;
+}
+
+.outlined {
+  color: #3D5AFE;
+  border: 1px solid #3D5AFE;
+  background-color: transparent;
+}
+
+.outlined:hover {
+  background-color: #2962FF1A;
+}
+
+.text{
+  color: #3D5AFE;
+  border: none;
+  background-color: transparent;
+}
+
+.text:hover {
+  background-color: #2962FF1A;
+}
